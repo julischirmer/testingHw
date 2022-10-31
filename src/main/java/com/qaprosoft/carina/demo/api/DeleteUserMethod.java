@@ -32,5 +32,7 @@ public class DeleteUserMethod extends AbstractApiMethodV2 {
 
     public DeleteUserMethod() {
         replaceUrlPlaceholder("base_url", Configuration.getEnvArg("api_url"));
+
+        System.out.println("Hello World");
     }
 }
